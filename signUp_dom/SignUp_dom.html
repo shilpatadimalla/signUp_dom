@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SignUp form DOM assignment</title>
+        <link rel="stylesheet" type="text/css" href="./signUp_dom.css" />
+    </head>
+    <body>
+        <form id="form" action="" onsubmit="return validateForm(this)">
+            <fieldset id="fieldset">
+                <legend>SignUp Form</legend>
+                <label for="fname">First Name:</label><br/> 
+                <input type="text" id="fname" name="fname" value=""><br />
+                <label for="lname">Last Name:</label><br/> 
+                <input type="text" id="lname" name="lname" value=""><br />
+                <label for="email">Email:</label><br/> 
+                <input type="text" size=30 id="email" name="email"><br />
+                <label for="phone">Phone:</label><br/> 
+                <input type="text" size=10 id="phone" name="phone"><br />
+                <label for="pass">Password</label><br />
+                <input type="password" size=8 id="pass" name="pass"><br />
+                <label for="radio">Choose one</label><br />
+                <input type="radio" id="radio1" name="developer" value="Frontend">Front end<br />
+                <input type="radio" id="radio2" name="developer" value="Backend">Back end<br />
+                <input type="radio" id="radio3" name="developer" value="Fullstack">Full stack<br />
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+        <p id="info"></p>
+        <script src="./signUp_dom.js"></script>
+    </body>
+</html>

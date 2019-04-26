@@ -1,0 +1,19 @@
+#form {
+    width: 400px;
+}
+
+input {
+    margin: 8px;
+}
+
+p {
+    color: red;
+}
+
+#newp {
+    color: black;
+}
+
+/*#info {
+    color: blue;
+}*/
